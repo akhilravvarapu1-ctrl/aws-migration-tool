@@ -1,0 +1,12 @@
+/* Inject Tailwind's utility, base, and component styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Import the Inter font from Google Fonts for a modern aesthetic */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+body {
+/* Apply the Inter font defined in tailwind.config.cjs */
+font-family: 'Inter', sans-serif;
+min-height: 100vh;
+background-color: #f7f9fc;
+}
