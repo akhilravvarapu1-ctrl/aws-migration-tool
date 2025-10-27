@@ -1,3 +1,5 @@
+import './App.css';
+
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 // Import Firebase modules
 import { initializeApp } from 'firebase/app';
